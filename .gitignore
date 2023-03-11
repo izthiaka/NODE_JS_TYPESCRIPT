@@ -6,3 +6,5 @@ package-lock.json
 # local env files
 .env
 .husky
+.vscode
+build

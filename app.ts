@@ -1,8 +1,8 @@
 import dotenv from "dotenv"
 
-import app from "./routes/app_route_v1.js"
+import app from "./routes/app_route_v1"
 
-import { DbAdapter } from "./services/database/mongo/DbAdapter.js"
+import { DbAdapter } from "./services/database/mongo/DbAdapter"
 
 dotenv.config()
 

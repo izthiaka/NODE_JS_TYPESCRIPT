@@ -1,4 +1,4 @@
-import { MongoDb } from "./MongoDb.js"
+import { MongoDb } from "./MongoDb"
 
 export class DbAdapter {
     database: MongoDb

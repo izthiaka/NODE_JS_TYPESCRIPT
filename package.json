@@ -12,7 +12,7 @@
     "build": "rm -rf build/ && tsc",
     "preinstall": "npm i nodemon -g",
     "prepare": "husky install",
-    "start": "npx tsc && nodemon --legacy-watch build/server.js",
+    "start": "npx tsc && nodemon build/server.js",
     "eslint_fix": "node_modules/eslint/bin/eslint.js . --fix"
   },
   "author": "izthiaka",
